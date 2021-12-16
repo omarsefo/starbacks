@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    max-height: 100vh;
+    background-color: #fff;
+    padding: 100px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+    transition: 0.4s;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #222;
+    padding:0 8px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+header ul li a:hover{
+    transform: scale(1.03);
+}
+
+.content{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.content .textb{
+    position: relative;
+    max-width: 600px;
+}
+.content .textb h2{
+    color: #333;
+    font-size: 64px;
+    line-height: 85px;
+}
+.content .textb span{
+    color: #017143;
+    font-size: 85px;
+}
+.content .textb p{
+    color: #333;
+}
+.content .textb a{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #017143;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.content .textb a:hover{
+    transform: scale(1.03);
+}
+.content .imgb{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgb img{
+    max-width: 340px;
+    transition: 1s;
+}
+.thu{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.thu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.thu li:hover{
+    transform: translateY(-15px);
+}
+.thu li img{
+    max-width: 60px;
+}
+.soc{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-direction: column;
+}
+.soc a{
+    display: inline-block;
+    margin: 7px 0;
+    font-size: 29px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
+}
+.soc a:hover{
+    transform: translateX(-8px);
+}
+.cir{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #017143;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(600px at right 800px);
+}
